@@ -1,0 +1,7 @@
+Flask
+pymongo
+python-dotenv
+bcrypt
+PyMuPDF
+scikit-learn
+requests

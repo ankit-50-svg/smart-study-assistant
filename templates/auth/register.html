@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Register{% endblock %}
+{% block content %}
+<div class="form-card">
+  <h2>Create account</h2>
+  <p>Start your personalized learning journey.</p>
+  <form>
+    <input type="text" placeholder="Full name" required>
+    <input type="email" placeholder="Email" required>
+    <input type="password" placeholder="Password" required>
+    <select><option>BCA</option><option>BSc IT</option><option>MCA</option></select>
+    <input type="number" placeholder="Semester" min="1" max="8">
+    <button class="btn" type="submit">Create Account</button>
+  </form>
+</div>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+<div class="page">
+<h1>Student Dashboard 👋</h1>
+<p>Your personalized learning overview.</p>
+<div class="grid">
+  <div class="card"><b>6</b><span>Subjects</span></div>
+  <div class="card"><b>15</b><span>Quizzes</span></div>
+  <div class="card"><b>82%</b><span>Average Score</span></div>
+  <div class="card"><b>72%</b><span>Progress</span></div>
+</div>
+<div class="grid two">
+  <div class="card"><h3>Today's Study Plan</h3><p>Python OOP — 60 min</p><p>DBMS SQL — 45 min</p><p>Java Classes — 45 min</p></div>
+  <div class="card"><h3>AI Recommendation</h3><p>Revise weak topics and take a short practice quiz today.</p></div>
+</div>
+</div>
+{% endblock %}
